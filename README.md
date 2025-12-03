@@ -1,6 +1,6 @@
-# JONATHAN_SANDOVAL_AA5_EV02
+# JONATHAN_SANDOVAL_AA5_EV01
 
-Evidencia GA7-220501096-AA5-EV02\
+Evidencia GA7-220501096-AA5-EV01\
 Autor: Jonathan Sandoval\
 Fecha: 2025-12-02
 
@@ -31,7 +31,7 @@ Pruebas a la API creada previamente
 
 ### Clonar el repositorio
 
-    git clone https://github.com/Curaprom06/JONATHAN_SANDOVAL_AA5_EV02.git
+    git clone https://github.com/Curaprom06/JONATHAN_SANDOVAL_AA5_EV01.git
 
 ### Crear la base de datos
 
@@ -45,7 +45,7 @@ Ejecutar el script que genera `database.sqlite`:
 
 Mover el proyecto dentro de `htdocs` y abrir:
 
-    http://localhost/JONATHAN_SANDOVAL_AA5_EV02/public/
+    http://localhost/JONATHAN_SANDOVAL_AA5_EV01/public/
 
 #### Opción B --- Servidor integrado de PHP
 
@@ -93,12 +93,12 @@ Posible respuesta:
 
 ### Registro:
 
-    curl -X POST "http://localhost/JONATHAN_SANDOVAL_AA5_EV02/public/register.php" -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"secret123\"}"
+    curl -X POST "http://localhost/JONATHAN_SANDOVAL_AA5_EV01/public/register.php" -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"secret123\"}"
 
 ### Login:
 
-    curl -X POST "http://localhost/JONATHAN_SANDOVAL_AA5_EV02/public/login.php" -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"secret123\"}"
+    curl -X POST "http://localhost/JONATHAN_SANDOVAL_AA5_EV01/public/login.php" -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"secret123\"}"
 
 ## 📎 Repositorio oficial
 
-https://github.com/Curaprom06/JONATHAN_SANDOVAL_AA5_EV02
+https://github.com/Curaprom06/JONATHAN_SANDOVAL_AA5_EV01
