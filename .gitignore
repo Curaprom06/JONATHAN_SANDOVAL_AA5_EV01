@@ -1,0 +1,4 @@
+/src/database.sqlite
+/vendor/
+/node_modules/
+*.zip

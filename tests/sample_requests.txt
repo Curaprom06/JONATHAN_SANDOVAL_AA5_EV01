@@ -1,0 +1,15 @@
+# Ejecutar DB init (una vez)
+php src/db_init.php
+
+# Registro
+
+curl -X POST "http://localhost/JONATHAN_SANDOVAL_AA5_EV01/public/register.php" -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"secret123\"}"
+
+# Login exitoso
+
+curl -X POST "http://localhost/JONATHAN_SANDOVAL_AA5_EV01/public/login.php" -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"secret123\"}"
+
+
+# Login fallido
+
+curl -X POST "http://localhost/JONATHAN_SANDOVAL_AA5_EV01/public/login.php" -H "Content-Type: application/json" -d "{\"username\":\"testuser\",\"password\":\"wrongpass\"}"
